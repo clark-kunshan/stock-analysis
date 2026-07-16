@@ -156,6 +156,7 @@ function swotApiPlugin() {
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), snapshotPlugin(), swotApiPlugin()],
+  base: '/stock-analysis/',
   server: {
     port: 5174,
     host: true,

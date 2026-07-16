@@ -11,10 +11,10 @@ lerna-debug.log*
 node_modules
 stock-tracker/node_modules
 
-# Build output
+# Build output (keep stock-tracker/dist for GitHub Pages)
 dist
-stock-tracker/dist
 dist-ssr
+!stock-tracker/dist/
 
 # Local files
 *.local
